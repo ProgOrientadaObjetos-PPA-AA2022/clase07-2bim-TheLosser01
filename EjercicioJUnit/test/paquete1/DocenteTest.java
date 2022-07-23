@@ -49,7 +49,7 @@ public class DocenteTest {
         System.out.println("obtenerNombres");
         String nom = "René";
         instance.establecerNombres(nom);
-        assertEquals(instance.obtenerNombres(), "René");
+        assertEquals(instance.obtenerNombres(), "rené");
     }
 
     
